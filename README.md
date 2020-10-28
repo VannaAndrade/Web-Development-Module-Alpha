@@ -30,3 +30,6 @@ Criar componente de conteudo que ficará no meio da tela, com 2 inputs; Senha e 
 Criar um componente de rodapé que contem a frase "Pagina desenvolvida e projetada por Giovanna Andrade" com letras em negrito e fonte Roboto  
 ## 3
 Criar componente de cabeçalho com 3 botões que alteram a cor de fundo da pagina inteira. As opções de cores são: Rosa, azul e cinza, sendo que a cor inicial é branco
+
+# local
+C:\Users\Giova\Documents\GitHub\Web-Development-Module-Alpha>cd primeiro-trabalho

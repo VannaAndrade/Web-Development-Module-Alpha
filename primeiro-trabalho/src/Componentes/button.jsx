@@ -1,7 +1,7 @@
 import React from 'react'
+import './Button.css'
 
 export default props => 
-    <>
-        <button >{props.cor}</button>
-        <h1>Eu sou um botão, {props.user}</h1>
+    <>  
+        <button type="button" id={props.id}>{props.cor}</button>
     </>

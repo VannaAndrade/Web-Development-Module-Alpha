@@ -1,28 +1,31 @@
 .App {
-  background-color: white;
-  color: #262626;
-   display: flex;
+  height: 100vh;
+  align-self: auto;
+
+  display: flex;
   flex-direction: column;
-  /*align-items: center;
-  justify-content: center; */
+  align-content: space-around;
 }
 .App-header {
   border: solid;
   border-color: #262626;
   border-width: 3px;
+  order: 1;
 }
 .App-footer {
-font-family: Roboto;
-font-weight: bold;
-text-align: center;
-border: solid;
-border-color: #262626;
-border-width: 3px;
+  font-family: Roboto;
+  font-weight: bold;
+  text-align: center;
+
+  order: 3;
+  border: solid;
 }
 #conteudo {
-  background-color: snow;
+  flex-grow: 1;
+  order: 2;
   display: flex;
   justify-content: center;
+
   border: solid;
   border-color: #262626;
   border-width: 2px;

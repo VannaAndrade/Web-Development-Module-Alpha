@@ -1,11 +1,17 @@
 import React from 'react'
 import './Cardlogin.css'
+import Button from '@material-ui/core/Button'
+import Input from '@material-ui/core/Input'
 
-export default () =>
-    <div id="cardlog">
-        <input type="text" placeholder="Email"></input>
-        <br></br>
-        <input type="text" placeholder="Senha"></input>
-        <br></br>
-        <button type="submit">Logar</button>
-    </div>
+export default function Cardlogin(){
+
+    return(
+        <div id="cardlog">
+            <Input type="text" placeholder="Email"></Input>
+            <br></br>
+            <Input type="text" placeholder="Senha"></Input>
+            <br></br>
+            <Button type="submit" color="primary" variant="contained">Logar</Button>
+        </div>
+    )
+}
